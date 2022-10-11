@@ -14,42 +14,47 @@
     <!-- Pesronal information group -->
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <label>
-        <fieldset class="personal_fieldset">
+        <fieldset class="personal_fieldset fieldset">
           <legend>Pesronal information</legend>
-          <label>Surname:
+          <label>
+            Surname:
             <input
-            type="text"
-            autocomplete="off"
-            class="surname_input"
+              type="text"
+              autocomplete="off"
+              class="surname_input input"
             >
           </label>
           <br>
-          <label>Name:
+          <label>
+            Name:
             <input
-            type="text"
-            autocomplete="off"
-            class="name_input"
+              type="text"
+              autocomplete="off"
+              class="name_input input"
             >
           </label><br>
-          <label>How old are You?
+          <label>
+            How old are You?
             <input
-            type="number"
-            min="1"
-            max="100"
-            value="12"
-            class="age_input"
+              type="number"
+              min="1"
+              max="100"
+              value="12"
+              class="age_input input"
             >
           </label><br>
-          <label>Full date of birth:
+          <label>
+            Full date of birth:
             <input
-            type="date"
-            class="date_input"
+              type="date"
+              class="date_input input"
             >
           </label><br>
-          <label>I accept the term of agreement
+          <label>
+            I accept the term of agreement
             <input
-            type="checkbox"
-            required
+              type="checkbox"
+              required
             >
           </label><br>
         </fieldset>
@@ -57,20 +62,22 @@
 
       <!-- Registration -->
       <label>
-        <fieldset class="reg_fieldset">
+        <fieldset class="reg_fieldset fieldset">
           <legend>Registration</legend>
-          <label>E-mail:
+          <label>
+            E-mail:
             <input
-            type="email"
-            placeholder="email@example.com"
-            class="email_input"
+              type="email"
+              placeholder="email@example.com"
+              class="email_input input"
             >
           </label><br>
-          <label>Password:
+          <label>
+            Password:
             <input
-            type="password"
-            minlength="7"
-            maxlength="20"
+              type="password"
+              minlength="7"
+              maxlength="20"
             >
           </label><br>
         </fieldset>
@@ -78,39 +85,42 @@
 
       <!-- Facts group -->
       <label>
-        <fieldset class="facts_fieldset">
+        <fieldset class="facts_fieldset fieldset">
           <legend>An interesting fact about you!</legend>
-          <div class="radio">
-            <label>Do you love cats?
+          <div class="radio input">
+             Do you love cats?
+            <label>
               <input
-              name="cats"
-              type="radio"
-              >
-              Yes
+                name="cats"
+                type="radio"
+              >Yes
             </label>
             <label>
               <input
-              type="radio"
-              name="cats"
+                type="radio"
+                name="cats"
               >
               No
             </label>
           </div>
-          <label>What is your favorite color?
+          <label>
+            What is your favorite color?
             <input
-            type="color"
-            class="color_input"
+              type="color"
+              class="color_input input"
             >
           </label><br>
-          <label>What time do you go to bed?
+          <label>
+            What time do you go to bed?
             <input
-            type="time"
-            step="0.1"
-            class="time_input"
+              type="time"
+              step="0.1"
+              class="time_input input"
             >
           </label>
-          <div class="select">
-            <label>What are your favorite brand of cars?
+          <div class="select input">
+            <label>
+              What are your favorite brand of cars?
               <select multiple>
                 <option value="bmw">BMW</option>
                 <option value="audi">Audi</option>
@@ -119,28 +129,35 @@
               </select>
             </label>
           </div>
-          <label>How do you rate our work?
-            <input type="range" value="0">
+          <label>
+            How do you rate our work?
+            <input
+              type="range"
+              value="0"
+            >
           </label>
         </fieldset>
       </label>
 
       <!-- Additional info group -->
       <label>
-        <fieldset class="info_fieldset">
+        <fieldset class="info_fieldset fieldset">
           <legend>Additional info</legend>
-          <div class="coms">
-            <label>Comments:
-              <textarea cols="16" rows="2"></textarea>
+          <div class="coms input">
+            <label>
+              Comments:
+              <textarea
+                cols="16"
+                rows="2"
+              ></textarea>
             </label>
           </div>
           <div class="rec">
-            <label>Would you recommend us?
-              <select>
-                <option value="yes" selected>yes</option>
-                <option value="no">no</option>
-              </select>
-            </label>
+            Would you recommend us?
+            <select>
+              <option value="yes" selected>yes</option>
+              <option value="no">no</option>
+            </select>
           </div>
         </fieldset>
       </label>

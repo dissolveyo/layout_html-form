@@ -1,61 +1,12 @@
 /* styles go here */
 
 /* Indent for fieldset */
-.personal_fieldset {
-  margin-bottom: 20px;
-}
-
-.reg_fieldset {
-  margin-bottom: 20px;
-}
-
-.facts_fieldset {
-  margin-bottom: 20px;
-}
-
-.info_fieldset {
+fieldset {
   margin-bottom: 20px;
 }
 
 /* Indent for inputs */
 
-.surname_input {
+.input {
   margin-bottom: 10px;
-}
-
-.name_input {
-  margin-bottom: 10px;
-}
-
-.age_input {
-  margin-bottom: 10px;
-}
-
-.date_input {
-  margin-bottom: 10px;
-}
-
-.email_input {
-  margin-bottom: 10px;
-}
-
-.radio {
-  margin-bottom: 10px;
-}
-
-.color_input {
-  margin-bottom: 10px;
-}
-
-.time_input {
-  margin-bottom: 10px;
-}
-
-.select {
-  margin-bottom: 10px;
-}
-
-.coms {
-  margin-bottom: 10px;
-
 }
