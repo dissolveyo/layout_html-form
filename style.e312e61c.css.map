@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAGA,UACE,kBACF,CAIA,OACE,kBACF","file":"style.e312e61c.css","sourceRoot":"..\\src","sourcesContent":["/* styles go here */\n\n/* Indent for fieldset */\n.fieldset {\n  margin-bottom: 20px;\n}\n\n/* Indent for inputs */\n\n.input {\n  margin-bottom: 10px;\n}\n"]}
